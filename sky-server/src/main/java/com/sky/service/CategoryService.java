@@ -1,5 +1,6 @@
 package com.sky.service;
 
+import com.sky.annotation.AutoFull;
 import com.sky.dto.CategoryDTO;
 import com.sky.dto.CategoryPageQueryDTO;
 import com.sky.entity.Category;
@@ -31,6 +32,7 @@ public interface CategoryService {
      * 修改分类
      * @param categoryDTO
      */
+
     void update(CategoryDTO categoryDTO);
 
     /**
